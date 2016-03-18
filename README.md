@@ -12,3 +12,6 @@ In problem three, the function sumAndMultiply() was created which takes three nu
 
 ### Problem Four: sumArray()
 In problem four, the function sumArray() was created which takes one array and returns one value representing the summation of its contents.
+
+### Problem Five: multiplyArray()
+In problem five, the function multiplyArray() was created which takes one array and returns one value representing the product of its contents.
