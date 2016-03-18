@@ -9,3 +9,6 @@ In problem two, the function multiply() was created which takes two numerical ar
 
 ### Problem Three: sumAndMultiply()
 In problem three, the function sumAndMultiply() was created which takes three numerical arguments and returns an array. The first element is the sum of the three numbers and the second element is the product of the two numbers.
+
+### Problem Four: sumArray()
+In problem four, the function sumArray() was created which takes one array and returns one value representing the summation of its contents.
