@@ -26,6 +26,7 @@ function sumArray(arrayX) {
   for (i = 0; i < arrayX.length; i++) {
     sumArrayAnswer += arrayX[i];
   }
+  console.table(arrayX);
   console.log(arrayX + ' was passed in as an array of numbers, and ' + sumArrayAnswer + ' is their sum');
   return sumArrayAnswer;
 }
@@ -35,7 +36,8 @@ function multiplyArray(arrayX) {
   multiplyArrayAnswer = 1;
   for (i = 0; i < arrayX.length; i++) {
     multiplyArrayAnswer *= arrayX[i];
-    console.log(arrayX + ' was passed in as an array of numbers, and ' + multiplyArrayAnswer + ' is their product');
-    return multiplyArrayAnswer;
   }
+  console.log(arrayX + ' was passed in as an array of numbers, and ' + multiplyArrayAnswer + ' is their product');
+  console.table(arrayX);
+  return multiplyArrayAnswer;
 }
