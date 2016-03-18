@@ -19,3 +19,13 @@ function sumAndMultiply(x, y, z) {
   console.log('The product of ' + x + ', ' + y + ' and ' + z + ' is ' + sumAndMultiplyAnswer[1] + '.');
   return sumAndMultiplyAnswer;
 }
+
+// problem 4 create function sumArray()
+function sumArray(arrayX) {
+  sumArrayAnswer = 0;
+  for (i = 0; i < arrayX.length; i++) {
+    sumArrayAnswer += arrayX[i];
+  }
+  console.log(arrayX + ' was passed in as an array of numbers, and ' + sumArrayAnswer + ' is their sum');
+  return sumArrayAnswer;
+}
